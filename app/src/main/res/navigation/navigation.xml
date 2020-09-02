@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    app:startDestination="@id/textFragment">
+
+    <fragment
+        android:id="@+id/textFragment"
+        android:name="com.will.drawerdemo.TextFragment"
+        android:label="@string/text_fragment_title" />
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.will.drawerdemo.ListFragment"
+        android:label="@string/list_fragment_title" />
+    <fragment
+        android:id="@+id/pagerFragment"
+        android:name="com.will.drawerdemo.PagerFragment"
+        android:label="@string/pager_fragment_title" />
+</navigation>
